@@ -1,196 +1,295 @@
-body {
-    margin:0;
-    font-family: Georgia, serif;
-    color:#ddd;
+<!DOCTYPE html>
+<html lang="en">
 
-    background-image:url("images/background.jpg");
-    background-size:cover;
-    background-attachment:fixed;
-    background-position:center;
+<head>
+<meta charset="UTF-8">
+
+<title>Naturum Demento - The Ultimate Website in Grueling Terror</title>
+
+<style>
+
+body {
+    margin: 0;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #050505;
+    color: #ddd;
+    font-family: Georgia, serif;
 }
 
+
+/* Banner */
 
 .banner {
-    width:100%;
-    display:block;
+    width: 100%;
+    display: block;
 }
 
 
+
+/* Navigation */
+
 nav {
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:10px;
-    padding:20px;
-    background:#080808;
+    background: rgba(0,0,0,0.9);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 
 nav a {
-    background:#300000;
-    color:#fff;
-    text-decoration:none;
-    padding:12px 20px;
-    border:2px solid #800000;
-    border-radius:5px;
+
+    background: linear-gradient(#500000, #160000);
+    color: white;
+    text-decoration: none;
+
+    padding: 12px 25px;
+
+    border: 2px solid #900000;
+    border-radius: 8px;
+
+    box-shadow: 0 0 10px black;
+
+    font-weight: bold;
+
 }
 
 
 nav a:hover {
-    background:#900000;
+
+    background: #900000;
+    color: white;
+
 }
 
 
+
+/* Introduction */
 
 .intro {
-    max-width:1100px;
-    margin:40px auto;
-    padding:30px;
-    background:rgba(0,0,0,0.75);
-    border:2px solid #600000;
+
+    width: 80%;
+    margin: 40px auto;
+
+    padding: 30px;
+
+    background: rgba(0,0,0,0.8);
+
+    border: 3px solid #600000;
+
+    box-shadow: 0 0 20px black;
+
 }
 
 
-h1,h2 {
-    text-align:center;
-    color:#c00;
+h1, h2 {
+
+    text-align: center;
+
+    color: #b00000;
+
+    text-shadow: 2px 2px black;
+
 }
+
 
 
 .intro-content {
-    display:flex;
-    align-items:center;
-    gap:25px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 30px;
+
 }
 
 
 .intro-content p {
-    font-size:18px;
-    line-height:1.6;
+
+    font-size: 18px;
+
+    line-height: 1.6;
+
 }
 
 
-.image-placeholder img {
-    width:200px;
-}
 
-
+/* Film Archive */
 
 .archive {
-    max-width:1100px;
-    margin:auto;
-    padding:30px;
-    background:rgba(0,0,0,0.75);
+
+    width: 80%;
+
+    margin: auto;
+
+    padding: 30px;
+
+    background: rgba(0,0,0,0.8);
+
+    border: 3px solid #600000;
+
 }
 
 
 
 .film-grid {
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:25px;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 25px;
+
 }
+
 
 
 .film {
-    text-align:center;
+
+    text-align: center;
+
+    background: rgba(20,0,0,0.8);
+
+    padding: 15px;
+
+    border: 2px solid #700000;
+
 }
+
 
 
 .film img {
-    width:100%;
-    height:300px;
-    object-fit:cover;
-    border:3px solid #700000;
+
+    width: 100%;
+
+    height: 300px;
+
+    object-fit: cover;
+
 }
 
 
+
 .film a {
-    display:block;
-    margin-top:10px;
-    color:#fff;
-    font-size:18px;
-    text-decoration:none;
+
+    display: block;
+
+    margin-top: 12px;
+
+    color: #fff;
+
+    font-size: 18px;
+
+    text-decoration: none;
+
 }
 
 
 .film a:hover {
-    color:red;
+
+    color: red;
+
 }
 
 
+
+/* Mobile */
 
 @media(max-width:800px){
 
 .film-grid {
-    grid-template-columns:repeat(2,1fr);
+
+grid-template-columns: repeat(2,1fr);
+
 }
+
 
 .intro-content {
-    flex-direction:column;
-}
+
+flex-direction: column;
 
 }
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Naturum Demento - The Ultimate Website in Grueling Terror</title>
-<link rel="stylesheet" href="style.css">
+}
+
+
+</style>
+
 </head>
+
 
 <body>
 
-<header>
-    <img src="images/banner.jpg" class="banner" alt="Naturum Demento Banner">
-</header>
+
+<img src="images/banner.jpg" class="banner">
 
 
 <nav>
-    <a href="movies.html">Evil Dead Movies</a>
-    <a href="games.html">Evil Dead Games</a>
-    <a href="comics.html">Evil Dead Comics</a>
-    <a href="#">Coming Soon</a>
-    <a href="#">Coming Soon</a>
-    <a href="#">Coming Soon</a>
-    <a href="#">Coming Soon</a>
+
+<a href="movies.html">Evil Dead Movies</a>
+
+<a href="games.html">Evil Dead Games</a>
+
+<a href="comics.html">Evil Dead Comics</a>
+
+<a href="#">Unknown</a>
+
+<a href="#">Unknown</a>
+
+<a href="#">Unknown</a>
+
+<a href="#">Unknown</a>
+
 </nav>
+
 
 
 <section class="intro">
 
-    <h1>Welcome to Naturum Demento</h1>
 
-    <h2>The Ultimate Website in Grueling Terror</h2>
+<h1>Welcome to Naturum Demento</h1>
 
-    <div class="intro-content">
+<h2>The Ultimate Website in Grueling Terror</h2>
 
-        <div class="image-placeholder">
-            <img src="images/intro-left.jpg" alt="">
-        </div>
 
-        <p>
-        Welcome to Naturum Demento, a dedicated tribute to the world of Evil Dead.
-        Explore the movies, games, comics, characters, creatures and mythology
-        surrounding one of horror's most legendary franchises.
+<div class="intro-content">
 
-        From the terrifying pages of the Necronomicon Ex-Mortis to the battles
-        against the Deadites, this website celebrates everything that makes Evil
-        Dead a true horror phenomenon.
-        </p>
 
-        <div class="image-placeholder">
-            <img src="images/intro-right.jpg" alt="">
-        </div>
+<img src="images/decorative-left.jpg" width="180">
 
-    </div>
+
+<p>
+
+You have opened Naturum Demento.
+
+Within these pages lies a complete archive dedicated to the Evil Dead universe.
+
+Explore the films, games, comics and dark mythology surrounding the Book of the Dead.
+
+Proceed carefully... knowledge has consequences.
+
+</p>
+
+
+<img src="images/decorative-right.jpg" width="180">
+
+
+</div>
+
 
 </section>
 
 
 
 <section class="archive">
+
 
 <h2>Evil Dead Archive</h2>
 
@@ -252,4 +351,5 @@ h1,h2 {
 
 
 </body>
+
 </html>
