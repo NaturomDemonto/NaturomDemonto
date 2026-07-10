@@ -1,0 +1,255 @@
+body {
+    margin:0;
+    font-family: Georgia, serif;
+    color:#ddd;
+
+    background-image:url("images/background.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center;
+}
+
+
+.banner {
+    width:100%;
+    display:block;
+}
+
+
+nav {
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px;
+    padding:20px;
+    background:#080808;
+}
+
+
+nav a {
+    background:#300000;
+    color:#fff;
+    text-decoration:none;
+    padding:12px 20px;
+    border:2px solid #800000;
+    border-radius:5px;
+}
+
+
+nav a:hover {
+    background:#900000;
+}
+
+
+
+.intro {
+    max-width:1100px;
+    margin:40px auto;
+    padding:30px;
+    background:rgba(0,0,0,0.75);
+    border:2px solid #600000;
+}
+
+
+h1,h2 {
+    text-align:center;
+    color:#c00;
+}
+
+
+.intro-content {
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+
+.intro-content p {
+    font-size:18px;
+    line-height:1.6;
+}
+
+
+.image-placeholder img {
+    width:200px;
+}
+
+
+
+.archive {
+    max-width:1100px;
+    margin:auto;
+    padding:30px;
+    background:rgba(0,0,0,0.75);
+}
+
+
+
+.film-grid {
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+
+.film {
+    text-align:center;
+}
+
+
+.film img {
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    border:3px solid #700000;
+}
+
+
+.film a {
+    display:block;
+    margin-top:10px;
+    color:#fff;
+    font-size:18px;
+    text-decoration:none;
+}
+
+
+.film a:hover {
+    color:red;
+}
+
+
+
+@media(max-width:800px){
+
+.film-grid {
+    grid-template-columns:repeat(2,1fr);
+}
+
+.intro-content {
+    flex-direction:column;
+}
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Naturum Demento - The Ultimate Website in Grueling Terror</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <img src="images/banner.jpg" class="banner" alt="Naturum Demento Banner">
+</header>
+
+
+<nav>
+    <a href="movies.html">Evil Dead Movies</a>
+    <a href="games.html">Evil Dead Games</a>
+    <a href="comics.html">Evil Dead Comics</a>
+    <a href="#">Coming Soon</a>
+    <a href="#">Coming Soon</a>
+    <a href="#">Coming Soon</a>
+    <a href="#">Coming Soon</a>
+</nav>
+
+
+<section class="intro">
+
+    <h1>Welcome to Naturum Demento</h1>
+
+    <h2>The Ultimate Website in Grueling Terror</h2>
+
+    <div class="intro-content">
+
+        <div class="image-placeholder">
+            <img src="images/intro-left.jpg" alt="">
+        </div>
+
+        <p>
+        Welcome to Naturum Demento, a dedicated tribute to the world of Evil Dead.
+        Explore the movies, games, comics, characters, creatures and mythology
+        surrounding one of horror's most legendary franchises.
+
+        From the terrifying pages of the Necronomicon Ex-Mortis to the battles
+        against the Deadites, this website celebrates everything that makes Evil
+        Dead a true horror phenomenon.
+        </p>
+
+        <div class="image-placeholder">
+            <img src="images/intro-right.jpg" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="archive">
+
+<h2>Evil Dead Archive</h2>
+
+
+<div class="film-grid">
+
+
+<div class="film">
+<img src="images/within-the-woods.jpg">
+<a href="within-the-woods.html">Within the Woods</a>
+</div>
+
+
+<div class="film">
+<img src="images/evil-dead-1.jpg">
+<a href="evil-dead-1.html">The Evil Dead</a>
+</div>
+
+
+<div class="film">
+<img src="images/evil-dead-2.jpg">
+<a href="evil-dead-2.html">Evil Dead II</a>
+</div>
+
+
+<div class="film">
+<img src="images/army-of-darkness.jpg">
+<a href="army-of-darkness.html">Army of Darkness</a>
+</div>
+
+
+<div class="film">
+<img src="images/evil-dead-2013.jpg">
+<a href="evil-dead-2013.html">Evil Dead (2013)</a>
+</div>
+
+
+<div class="film">
+<img src="images/ash-vs-evil-dead.jpg">
+<a href="ash-vs-evil-dead.html">Ash vs Evil Dead</a>
+</div>
+
+
+<div class="film">
+<img src="images/evil-dead-rise.jpg">
+<a href="evil-dead-rise.html">Evil Dead Rise</a>
+</div>
+
+
+<div class="film">
+<img src="images/evil-dead-burn.jpg">
+<a href="evil-dead-burn.html">Evil Dead Burn</a>
+</div>
+
+
+</div>
+
+</section>
+
+
+</body>
+</html>
