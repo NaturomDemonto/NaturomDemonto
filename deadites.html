@@ -10,24 +10,23 @@
 
 <style>
 
-
 body {
 
-    margin: 0;
+margin:0;
 
-    background-image: url("Assetts/parchmentpage.jpg");
+background-image:url("Assetts/parchmentpage.jpg");
 
-    background-size: cover;
+background-size:cover;
 
-    background-attachment: fixed;
+background-attachment:fixed;
 
-    background-position: center;
+background-position:center;
 
-    background-color: #050505;
+background-color:#050505;
 
-    color: #ddd;
+color:#ddd;
 
-    font-family: Georgia, serif;
+font-family:Georgia, serif;
 
 }
 
@@ -36,211 +35,210 @@ body {
 
 .banner {
 
-    width: 100%;
+width:100%;
 
-    display: block;
+display:block;
 
 }
-
 
 
 /* Navigation */
 
 nav {
 
-    background: rgba(0,0,0,0.9);
+background:rgba(0,0,0,0.9);
 
-    padding: 20px;
+padding:20px;
 
-    display: flex;
+display:flex;
 
-    justify-content: center;
+justify-content:center;
 
-    flex-wrap: wrap;
+flex-wrap:wrap;
 
-    gap: 15px;
+gap:15px;
 
 }
-
 
 
 nav a {
 
-    background: linear-gradient(#500000, #160000);
+background:linear-gradient(#500000,#160000);
 
-    color: white;
+color:white;
 
-    text-decoration: none;
+text-decoration:none;
 
-    padding: 12px 25px;
+padding:12px 25px;
 
-    border: 2px solid #900000;
+border:2px solid #900000;
 
-    border-radius: 8px;
+border-radius:8px;
 
-    box-shadow: 0 0 10px black;
+box-shadow:0 0 10px black;
 
-    font-weight: bold;
+font-weight:bold;
 
 }
-
 
 
 nav a:hover {
 
-    background: #900000;
+background:#900000;
 
 }
 
 
-
-/* Main Sections */
-
+/* Main boxes */
 
 .intro,
-.deadite-book {
+.book-section {
 
-    width: 80%;
+width:80%;
 
-    margin: 40px auto;
+margin:40px auto;
 
-    padding: 30px;
+padding:30px;
 
-    background: rgba(0,0,0,0.85);
+background:rgba(0,0,0,0.85);
 
-    border: 3px solid #600000;
+border:3px solid #600000;
 
-    box-shadow: 0 0 20px black;
+box-shadow:0 0 20px black;
 
 }
-
 
 
 h1,
 h2 {
 
-    text-align: center;
+text-align:center;
 
-    color: #b00000;
+color:#b00000;
 
-    text-shadow: 2px 2px black;
+text-shadow:2px 2px black;
+
+}
+
+
+p {
+
+font-size:18px;
+
+line-height:1.7;
+
+}
+
+
+/* Necronomicon header */
+
+
+.book-header {
+
+display:flex;
+
+align-items:center;
+
+gap:30px;
+
+margin-bottom:35px;
+
+padding-bottom:20px;
+
+border-bottom:2px solid #700000;
+
+}
+
+
+.book-header img {
+
+width:180px;
+
+border:3px solid #900000;
+
+box-shadow:0 0 15px black;
+
+}
+
+
+.book-text {
+
+flex:1;
 
 }
 
 
 
-.intro p,
-.deadite-book p {
-
-    font-size: 18px;
-
-    line-height: 1.7;
-
-}
-
-
-
-/* Necronomicon Sections */
-
-
-.necronomicon {
-
-    text-align: center;
-
-    margin-bottom: 30px;
-
-}
-
-
-
-.necronomicon img {
-
-    width: 180px;
-
-    border: 3px solid #700000;
-
-    box-shadow: 0 0 15px black;
-
-}
-
-
-
-/* Deadite Entries */
+/* Deadite blocks */
 
 
 .deadite-entry {
 
-    display: flex;
+display:flex;
 
-    gap: 30px;
+gap:30px;
 
-    margin: 35px 0;
+margin:30px 0;
 
-    padding: 20px;
+padding:20px;
 
-    background: rgba(20,0,0,0.7);
+background:rgba(30,0,0,0.75);
 
-    border: 2px solid #700000;
+border:2px solid #700000;
 
 }
-
 
 
 .deadite-image {
 
-    width: 35%;
+width:30%;
 
-    text-align: center;
+text-align:center;
 
 }
-
 
 
 .deadite-image img {
 
-    width: 100%;
+width:100%;
 
-    max-width: 250px;
+max-width:220px;
 
-    border: 3px solid #900000;
+border:3px solid #900000;
 
 }
-
 
 
 .deadite-info {
 
-    width: 65%;
+width:70%;
 
 }
-
 
 
 .deadite-info h2 {
 
-    text-align: left;
+text-align:left;
 
 }
 
-
-
-.deadite-info p {
-
-    margin-bottom: 15px;
-
-}
-
-
-
-/* Mobile */
 
 
 @media(max-width:800px){
 
 
+.book-section,
+.intro {
+
+width:90%;
+
+}
+
+
+.book-header,
 .deadite-entry {
 
-    flex-direction: column;
+flex-direction:column;
 
 }
 
@@ -248,28 +246,17 @@ h2 {
 .deadite-image,
 .deadite-info {
 
-    width: 100%;
-
-}
-
-
-.intro,
-.deadite-book {
-
-    width: 90%;
+width:100%;
 
 }
 
 
 }
-
 
 
 </style>
 
-
 </head>
-
 
 
 <body>
@@ -308,26 +295,18 @@ h2 {
 <h2>The Creatures Of The Necronomicon</h2>
 
 
-
 <p>
 
-Throughout history, the Necronomicon Ex Mortis has unleashed countless horrors upon the world.
+Throughout history, different copies of the Necronomicon Ex Mortis have been discovered.
 
-These pages document the Deadites, Kandarian Demons and other creatures summoned from each known incarnation of the Book of the Dead.
+Each book contains its own dark secrets, forbidden passages and terrifying creatures.
 
 </p>
 
 
 <p>
 
-Each section below represents a different Necronomicon, recording the Deadites that have emerged from its pages and the events surrounding their arrival.
-
-</p>
-
-
-<p>
-
-This archive will continue to grow as more secrets of the Evil Dead universe are revealed.
+This archive documents the Deadites unleashed by each known Necronomicon, showing which book summoned them and the events surrounding their appearance.
 
 </p>
 
@@ -337,26 +316,36 @@ This archive will continue to grow as more secrets of the Evil Dead universe are
 
 
 
+<section class="book-section">
 
-<section class="deadite-book">
+
+<div class="book-header">
 
 
-<div class="necronomicon">
+<img src="Assetts/necronomicon-book1.jpg">
 
-<img src="Assetts/necronomiconbook1.jpg">
+
+<div class="book-text">
+
 
 <h2>Necronomicon Book I</h2>
 
-<h2>(The Evil Dead)</h2>
-
-</div>
+<h2>(The Original Book Of The Dead)</h2>
 
 
 <p>
 
-The original known Book of the Dead. The ancient Sumerian texts discovered in the cabin unleashed the first recorded Deadite outbreak.
+The ancient Sumerian Book of the Dead discovered in the woods of Tennessee.
+
+This is the Necronomicon connected to Ash Williams and his battle against evil across decades.
 
 </p>
+
+
+</div>
+
+
+</div>
 
 
 
@@ -372,15 +361,22 @@ The original known Book of the Dead. The ancient Sumerian texts discovered in th
 
 <div class="deadite-info">
 
+
 <h2>Deadite Name</h2>
 
-<p><strong>Origin:</strong> The Evil Dead</p>
+
+<p><strong>Origin:</strong> Evil Dead universe</p>
+
 
 <p><strong>Summoned By:</strong> Necronomicon Book I</p>
 
+
 <p>
+
 Description of this Deadite goes here.
+
 </p>
+
 
 </div>
 
@@ -402,147 +398,24 @@ Description of this Deadite goes here.
 
 <div class="deadite-info">
 
+
 <h2>Deadite Name</h2>
 
-<p><strong>Origin:</strong> The Evil Dead</p>
+
+<p><strong>Origin:</strong> Evil Dead universe</p>
+
 
 <p><strong>Summoned By:</strong> Necronomicon Book I</p>
 
+
 <p>
+
 Description of this Deadite goes here.
-</p>
-
-</div>
-
-
-</div>
-
-
-</section>
-
-
-
-
-
-<section class="deadite-book">
-
-
-<div class="necronomicon">
-
-<img src="Assetts/necronomiconbook2.jpg">
-
-<h2>Necronomicon Book II</h2>
-
-<h2>(Evil Dead II / Army Of Darkness)</h2>
-
-</div>
-
-
-<p>
-
-The second known incarnation of the Necronomicon, containing further knowledge of the Deadites and the forces of darkness.
 
 </p>
 
 
-<!-- COPY DEADITE ENTRY BLOCKS HERE -->
-
-
-</section>
-
-
-
-
-
-<section class="deadite-book">
-
-
-<div class="necronomicon">
-
-<img src="Assetts/necronomiconbook3.jpg">
-
-<h2>Necronomicon Book III</h2>
-
-<h2>(Evil Dead 2013)</h2>
-
 </div>
 
 
-<p>
-
-A separate version of the Book of the Dead containing its own dark rituals and deadly secrets.
-
-</p>
-
-
-<!-- COPY DEADITE ENTRY BLOCKS HERE -->
-
-
-</section>
-
-
-
-
-
-<section class="deadite-book">
-
-
-<div class="necronomicon">
-
-<img src="Assetts/necronomiconbook4.jpg">
-
-<h2>Necronomicon Book IV</h2>
-
-<h2>(Unknown)</h2>
-
 </div>
-
-
-<p>
-
-A future discovery. The contents and Deadites connected to this book remain unknown.
-
-</p>
-
-
-<!-- COPY DEADITE ENTRY BLOCKS HERE -->
-
-
-</section>
-
-
-
-
-
-<section class="deadite-book">
-
-
-<div class="necronomicon">
-
-<img src="Assetts/necronomiconbook5.jpg">
-
-<h2>Necronomicon Book V</h2>
-
-<h2>(Unknown)</h2>
-
-</div>
-
-
-<p>
-
-A lost chapter of the Necronomicon mythology waiting to be uncovered.
-
-</p>
-
-
-<!-- COPY DEADITE ENTRY BLOCKS HERE -->
-
-
-</section>
-
-
-
-
-</body>
-
-  </html>
