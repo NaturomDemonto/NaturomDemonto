@@ -9,146 +9,228 @@
 
 <style>
 
-body{
-    margin:0;
-    background-image:url("Assetts/parchmentpage.jpg");
-    background-size:cover;
-    background-attachment:fixed;
-    background-position:center;
-    background-color:#050505;
-    color:#ddd;
-    font-family:Georgia,serif;
+body {
+
+margin:0;
+
+background-image:url("Assetts/parchmentpage.jpg");
+
+background-size:cover;
+
+background-attachment:fixed;
+
+background-position:center;
+
+background-color:#050505;
+
+color:#ddd;
+
+font-family:Georgia, serif;
+
 }
 
-.banner{
-    width:100%;
-    display:block;
+
+/* Banner */
+
+.banner {
+
+width:100%;
+
+display:block;
+
 }
+
 
 /* Navigation */
 
-nav{
-    background:rgba(0,0,0,0.9);
-    padding:20px;
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:15px;
-}
+nav {
 
-nav a{
-    background:linear-gradient(#500000,#160000);
-    color:white;
-    text-decoration:none;
-    padding:12px 25px;
-    border:2px solid #900000;
-    border-radius:8px;
-    box-shadow:0 0 10px black;
-    font-weight:bold;
-}
+background:rgba(0,0,0,0.9);
 
-nav a:hover{
-    background:#900000;
-}
+padding:20px;
 
-/* Main Content */
+display:flex;
 
-.section{
-    width:80%;
-    margin:40px auto;
-    padding:30px;
-    background:rgba(0,0,0,0.82);
-    border:3px solid #600000;
-    box-shadow:0 0 20px black;
-}
+justify-content:center;
 
-h1,h2,h3{
-    text-align:center;
-    color:#b00000;
-    text-shadow:2px 2px black;
-}
+flex-wrap:wrap;
 
-p{
-    font-size:18px;
-    line-height:1.7;
-}
-
-/* Three Book Layout */
-
-.book-row{
-    display:flex;
-    gap:25px;
-    justify-content:space-between;
-    margin-top:40px;
-    flex-wrap:wrap;
-}
-
-.book-card{
-
-    flex:1;
-    min-width:250px;
-
-    background:rgba(25,0,0,0.80);
-
-    border:2px solid #700000;
-
-    padding:20px;
-
-    text-align:center;
+gap:15px;
 
 }
 
-.book-card img{
 
-    width:170px;
+nav a {
 
-    border:3px solid #900000;
+background:linear-gradient(#500000,#160000);
 
-    box-shadow:0 0 15px black;
+color:white;
 
-}
+text-decoration:none;
 
-.book-card p{
+padding:12px 25px;
 
-    text-align:left;
+border:2px solid #900000;
 
-    font-size:17px;
+border-radius:8px;
 
-}
+box-shadow:0 0 10px black;
 
-/* Timeline connector */
-
-.connector{
-
-    text-align:center;
-
-    font-size:48px;
-
-    color:#900000;
-
-    margin-top:15px;
+font-weight:bold;
 
 }
 
-@media(max-width:900px){
 
-.section{
+nav a:hover {
+
+background:#900000;
+
+}
+
+
+
+/* Main Sections */
+
+.section {
+
+width:80%;
+
+margin:40px auto;
+
+padding:30px;
+
+background:rgba(0,0,0,0.85);
+
+border:3px solid #600000;
+
+box-shadow:0 0 20px black;
+
+}
+
+
+h1,h2 {
+
+text-align:center;
+
+color:#b00000;
+
+text-shadow:2px 2px black;
+
+}
+
+
+p {
+
+font-size:18px;
+
+line-height:1.7;
+
+}
+
+
+
+/* Universe Entries */
+
+
+.book-entry {
+
+display:flex;
+
+align-items:center;
+
+gap:30px;
+
+margin:40px 0;
+
+padding:25px;
+
+background:rgba(20,0,0,0.75);
+
+border:2px solid #700000;
+
+}
+
+
+
+.book-image {
+
+width:30%;
+
+text-align:center;
+
+}
+
+
+
+.book-image img {
+
+width:100%;
+
+max-width:220px;
+
+border:3px solid #900000;
+
+box-shadow:0 0 15px black;
+
+}
+
+
+
+.book-text {
+
+width:70%;
+
+}
+
+
+
+.book-text h2 {
+
+text-align:left;
+
+}
+
+
+
+@media(max-width:800px){
+
+
+.section {
+
 width:90%;
+
 }
 
-.book-row{
+
+.book-entry {
+
 flex-direction:column;
-}
 
 }
+
+
+.book-image,
+.book-text {
+
+width:100%;
+
+}
+
+
+}
+
 
 </style>
 
 </head>
 
+
 <body>
 
+
 <img src="Assetts/naturomdemontobanner.png" class="banner">
+
+
 
 <nav>
 
@@ -172,66 +254,160 @@ flex-direction:column;
 
 
 
+
 <section class="section">
+
 
 <h1>The Evil Dead Universe</h1>
 
-<h2>Understanding the Necronomicons</h2>
+<h2>The Necronomicon And The Forces Of Evil</h2>
+
 
 <p>
 
-Although the Evil Dead franchise spans multiple films, television series, videogames and comics, the mythology revolves around one central idea...
+The Evil Dead universe is connected by one ancient source of evil: the Necronomicon Ex Mortis, the Book of the Dead.
 
-The Necronomicon.
-
-Over time, several different Books of the Dead have been discovered. Each possesses its own appearance, passages and dark history, yet all serve the same ancient evil.
-
-This archive is designed to explain which stories belong to each Necronomicon and how the Evil Dead universe fits together.
+Throughout history, different copies of this forbidden text have been discovered. Each book contains its own secrets, rituals and deadly passages that can unleash the forces of darkness upon the world.
 
 </p>
 
+
+<p>
+
+This archive documents the known Necronomicons, their history, and the stories connected to each version of the Book of the Dead.
+
+</p>
+
+
 </section>
 
+
+
+
+
 <section class="section">
-<h2>The Known Books Of The Dead</h2>
 
-<div class="book-row">
-<div class="book-card">
+
+<div class="book-entry">
+
+
+<div class="book-image">
+
 <img src="Assetts/necronomicon-book1.jpg">
-
-<h3>Book I</h3>
-
-<p>The Original Necronomicon.</p>
-
-<div class="connector">⬇</div>
 
 </div>
 
-<div class="book-card">
+
+<div class="book-text">
+
+<h2>Necronomicon Book I</h2>
+
+<h2>(The Original Book Of The Dead)</h2>
+
+
+<p>
+
+The original known Necronomicon Ex Mortis. This is the ancient Sumerian book discovered in the woods of Tennessee and the one responsible for Ash Williams' lifelong battle against the Deadites.
+
+</p>
+
+
+<p>
+
+This book is connected to the events of The Evil Dead, Evil Dead II, Army Of Darkness and Ash vs Evil Dead.
+
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="book-entry">
+
+
+<div class="book-image">
 
 <img src="Assetts/necronomicon-book2.jpg">
 
-<h3>Book II</h3>
+</div>
 
-<p>The Stitched Face Book.</p>
 
-<div class="connector">⬇</div>
+<div class="book-text">
+
+<h2>Necronomicon Book II</h2>
+
+<h2>(The Stitched Face Book)</h2>
+
+
+<p>
+
+A different incarnation of the Book of the Dead, discovered years later. This version contains its own dark writings and unleashed the Deadite outbreak surrounding Mia Allen and her friends.
+
+</p>
+
+
+<p>
+
+This Necronomicon is connected to the events of Evil Dead (2013).
+
+</p>
+
 
 </div>
 
-<div class="book-card">
+
+</div>
+
+
+
+
+
+<div class="book-entry">
+
+
+<div class="book-image">
 
 <img src="Assetts/necronomicon-book3.jpg">
 
-<h3>Book III</h3>
+</div>
 
-<p>The Teeth Book.</p>
 
-<div class="connector">⬇</div>
+<div class="book-text">
+
+<h2>Necronomicon Book III</h2>
+
+<h2>(The Teeth Book)</h2>
+
+
+<p>
+
+Another ancient copy of the Necronomicon, hidden away until it was discovered beneath Los Angeles. Its pages brought a new generation of Deadites into the world.
+
+</p>
+
+
+<p>
+
+This Necronomicon is connected to Evil Dead Rise and future stories within this timeline.
+
+</p>
+
 
 </div>
 
+
 </div>
+
 
 </section>
 
+
+</body>
+
+</html>
