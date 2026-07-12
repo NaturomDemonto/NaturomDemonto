@@ -9,488 +9,306 @@
 <style>
 
 body {
-    margin: 0;
-    background-image: url("Assetts/parchmentpage.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-color: #050505;
-    color: #ddd;
-    font-family: Georgia, serif;
+    margin:0;
+    background-image:url("Assetts/parchmentpage.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center;
+    background-color:#050505;
+    color:#ddd;
+    font-family:Georgia,serif;
 }
-
-
-/* Banner */
 
 .banner {
-    width: 100%;
-    display: block;
+    width:100%;
+    display:block;
 }
-
-
-/* Navigation */
 
 nav {
-    background: rgba(0,0,0,0.9);
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
+    background:rgba(0,0,0,0.9);
+    padding:20px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
 }
-
 
 nav a {
-    background: linear-gradient(#500000, #160000);
-    color: white;
-    text-decoration: none;
-    padding: 12px 25px;
-    border: 2px solid #900000;
-    border-radius: 8px;
-    box-shadow: 0 0 10px black;
-    font-weight: bold;
+    background:linear-gradient(#500000,#160000);
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border:2px solid #900000;
+    border-radius:8px;
+    box-shadow:0 0 10px black;
+    font-weight:bold;
 }
-
 
 nav a:hover {
-    background: #900000;
-    color: white;
+    background:#900000;
 }
-
-
-/* Introduction */
 
 .intro {
-
-    width: 80%;
-    margin: 40px auto;
-
-    padding: 30px;
-
-    background: rgba(0,0,0,0.8);
-
-    border: 3px solid #600000;
-
-    box-shadow: 0 0 20px black;
-
+    width:80%;
+    margin:40px auto;
+    padding:30px;
+    background:rgba(0,0,0,0.8);
+    border:3px solid #600000;
+    box-shadow:0 0 20px black;
 }
 
-
-h1, h2 {
-
-    text-align: center;
-
-    color: #b00000;
-
-    text-shadow: 2px 2px black;
-
+h1,h2 {
+    text-align:center;
+    color:#b00000;
+    text-shadow:2px 2px black;
 }
-
 
 .intro-content {
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: space-between;
-
-    gap: 30px;
-
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:30px;
 }
-
 
 .intro-content p {
-
-    font-size: 18px;
-
-    line-height: 1.6;
-
+    font-size:18px;
+    line-height:1.6;
 }
-
-
-
-/* Movie Archive */
 
 .archive {
-
-    width: 80%;
-
-    margin: auto;
-
-    padding: 30px;
-
-    background: rgba(0,0,0,0.8);
-
-    border: 3px solid #600000;
-
+    width:80%;
+    margin:auto;
+    padding:30px;
+    background:rgba(0,0,0,0.8);
+    border:3px solid #600000;
 }
-
-
 
 .movie-entry {
-
-    display: flex;
-
-    gap: 25px;
-
-    margin-bottom: 30px;
-
-    padding: 20px;
-
-    background: rgba(20,0,0,0.8);
-
-    border: 2px solid #700000;
-
+    display:flex;
+    gap:25px;
+    margin-bottom:30px;
+    padding:20px;
+    background:rgba(20,0,0,0.8);
+    border:2px solid #700000;
 }
 
-
-.movie-entry img {
-
-    width: 180px;
-    height: 270px;
-
-    object-fit: fill !important;
-
-    display: block;
-
-    border: 6px solid #5a2d15;
-
-    outline: 2px solid #1a0800;
-
-    box-shadow: 0 0 15px black;
-
+.poster {
+    width:180px;
+    height:270px;
+    flex-shrink:0;
+    border:6px solid #5a2d15;
+    outline:2px solid #1a0800;
+    box-shadow:0 0 15px black;
+    overflow:hidden;
 }
 
-
+.poster img {
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:fill;
+}
 
 .movie-info h3 {
-
-    color: #b00000;
-
-    text-shadow: 2px 2px black;
-
-    font-size: 25px;
-
+    color:#b00000;
+    text-shadow:2px 2px black;
+    font-size:25px;
 }
-
-
 
 .movie-info a {
-
-    color: white;
-
-    text-decoration: none;
-
+    color:white;
+    text-decoration:none;
 }
-
-
 
 .movie-info a:hover {
-
-    color: red;
-
+    color:red;
 }
-
-
 
 .movie-info p {
-
-    font-size: 17px;
-
-    line-height: 1.6;
-
+    font-size:17px;
+    line-height:1.6;
 }
-
-
-
-/* Mobile */
 
 @media(max-width:800px){
 
 .movie-entry {
-
-    flex-direction: column;
-
+    flex-direction:column;
 }
-
 
 .intro-content {
-
-    flex-direction: column;
-
-}
-
-
-.poster {
-
-    width: 180px;
-    height: 270px;
-
-    border: 6px solid #5a2d15;
-
-    outline: 2px solid #1a0800;
-
-    box-shadow: 0 0 15px black;
-
-    overflow: hidden;
-
-    flex-shrink: 0;
-
-}
-
-
-.poster img {
-
-    width: 100%;
-    height: 100%;
-
-    display: block;
-
-    object-fit: fill;
-
+    flex-direction:column;
 }
 
 }
-
 
 </style>
 
 </head>
 
-
 <body>
-
 
 <img src="Assetts/naturomdemontobanner.png" class="banner">
 
-
 <nav>
-
 <a href="movies.html">Evil Dead Movies</a>
-
 <a href="tvseries.html">Evil Dead TV Series</a>
-
 <a href="games.html">Evil Dead Games</a>
-
 <a href="comics.html">Evil Dead Comics</a>
-
 <a href="musical.html">Evil Dead Musical</a>
-
 <a href="universe.html">Evil Dead Universe</a>
-
 <a href="deadites.html">Deadites</a>
-
 <a href="production.html">Making Of</a>
-
 </nav>
 
-
-
 <section class="intro">
-
 
 <h1>Evil Dead Movies & Television Archive</h1>
 
 <h2>The Complete Naturom Demonto Film Collection</h2>
 
-
 <div class="intro-content">
-
 
 <img src="Assetts/necronomiconEDII.jpg" width="180">
 
-
 <p>
-
 Welcome to the Evil Dead Movies and Television Archive.
-
 Explore the complete history of the Deadites, from the original cabin in the woods that started it all, through Ash Williams' battles across time, to the newest chapters of horror unleashed by the Book of the Dead.
-
+<br><br>
 Choose your movie or series below and enter the world of Naturom Demonto... but beware what you awaken.
-
 </p>
-
 
 <img src="Assetts/cabinED1.jpg" width="180">
 
-
 </div>
-
 
 </section>
 
-
-
-
-
 <section class="archive">
-
 
 <h2>Evil Dead Movie & TV Archive</h2>
 
-
+<div class="movie-entry">
 
 <div class="poster">
-
 <img src="Assetts/withinthewoods.jpg">
+</div>
 
 <div class="movie-info">
-
 <h3><a href="within-the-woods.html">Within the Woods</a></h3>
-
-<p>
-The original short film created by Sam Raimi that introduced the world to the terrifying concept of the Deadites. A group of friends discover the Book of the Dead at a remote cabin and unleash an ancient evil.
-</p>
-
+<p>The original short film created by Sam Raimi that introduced the concept of the Deadites and the Book of the Dead.</p>
 </div>
 
 </div>
 
-
+<div class="movie-entry">
 
 <div class="poster">
-
 <img src="Assetts/evildead1dads.jpg">
+</div>
 
 <div class="movie-info">
-
 <h3><a href="evil-dead-1.html">The Evil Dead</a></h3>
-
-<p>
-Five friends travel to an isolated cabin where they discover the Necronomicon Ex-Mortis. After reading from its pages, they unleash a demonic force that begins possessing them one by one.
-</p>
-
+<p>Five friends discover the Necronomicon Ex-Mortis in an isolated cabin, unleashing a demonic force that possesses them one by one.</p>
 </div>
 
 </div>
 
-
+<div class="movie-entry">
 
 <div class="poster">
-
 <img src="Assetts/evildead2dads.jpg">
+</div>
 
 <div class="movie-info">
-
 <h3><a href="evil-dead-2.html">Evil Dead II</a></h3>
-
-<p>
-Ash Williams returns to the cabin and once again faces the forces of darkness. A continuation and reimagining of the original story, combining terrifying horror with the series' trademark dark humour.
-</p>
-
+<p>Ash Williams returns to the cabin and faces the Deadites once again in a continuation of the terrifying and darkly humorous battle against the forces of the Necronomicon.</p>
 </div>
 
 </div>
 
 
+<div class="movie-entry">
 
 <div class="poster">
-
 <img src="Assetts/themedievaldeaddads.jpg">
+</div>
 
 <div class="movie-info">
-
 <h3><a href="army-of-darkness.html">Army of Darkness</a></h3>
-
-<p>
-Transported back to the Middle Ages, Ash must battle armies of Deadites and find a way home while facing his greatest enemy: his own evil counterpart.
-</p>
-
+<p>Transported back to the Middle Ages, Ash must battle an army of Deadites and find a way back home while facing his own evil duplicate.</p>
 </div>
 
 </div>
 
 
+<div class="movie-entry">
 
 <div class="poster">
-
 <img src="Assetts/evildead4.jpg">
+</div>
 
 <div class="movie-info">
-
 <h3><a href="evil-dead-2013.html">Evil Dead (2013)</a></h3>
-
-<p>
-A new group of survivors discover the Necronomicon inside an abandoned cabin. Their struggle against possession brings a brutal and terrifying new vision of the Evil Dead legend.
-</p>
-
+<p>A new group of survivors discover the Necronomicon hidden in an abandoned cabin and unleash a brutal new nightmare of possession and terror.</p>
 </div>
 
 </div>
 
 
+<div class="movie-entry">
 
 <div class="poster">
-
 <img src="Assetts/ashvsevildead.jpg">
+</div>
 
 <div class="movie-info">
-
 <h3><a href="ash-vs-evil-dead.html">Ash vs Evil Dead</a></h3>
-
-<p>
-Decades after his battle at the cabin, Ash Williams is forced back into action when the Deadites return. Joined by new allies, Ash fights to save the world from the darkness he accidentally unleashed.
-</p>
-
+<p>Decades after his original battle, Ash Williams returns to fight the Deadites once again alongside new allies and confront the evil he unleashed.</p>
 </div>
 
 </div>
 
 
+<div class="movie-entry">
 
 <div class="poster">
-
 <img src="Assetts/evildeadrise.jpg">
+</div>
 
 <div class="movie-info">
-
 <h3><a href="evil-dead-rise.html">Evil Dead Rise</a></h3>
-
-<p>
-A family discovers the Book of the Dead hidden beneath an apartment building, unleashing a new nightmare. The Deadites return in a terrifying urban setting far from the traditional cabin.
-</p>
-
+<p>A family discovers the Book of the Dead beneath an apartment building, unleashing a new wave of Deadite horror far away from the original cabin.</p>
 </div>
 
 </div>
 
 
+<div class="movie-entry">
 
 <div class="poster">
-
 <img src="Assetts/evildeadburn.jpg">
+</div>
 
 <div class="movie-info">
-
 <h3><a href="evil-dead-burn.html">Evil Dead Burn</a></h3>
-
-<p>
-The latest chapter in the Evil Dead saga, bringing another horrifying encounter with the forces of the Necronomicon and the relentless evil contained within its pages.
-</p>
-
+<p>The next chapter in the Evil Dead universe, bringing a new encounter with the ancient evil contained within the Necronomicon.</p>
 </div>
 
 </div>
 
 
+<div class="movie-entry">
 
 <div class="poster">
-
 <img src="Assetts/evildeadwrath.jpg">
+</div>
 
 <div class="movie-info">
-
 <h3><a href="evil-dead-wrath.html">Evil Dead Wrath</a></h3>
-
-<p>
-A new battle against the Deadites begins as the ancient evil rises once again. Discover the next terrifying chapter in the continuing legacy of the Book of the Dead.
-</p>
-
+<p>A new battle against the Deadites begins as the ancient forces of darkness rise once again and the Book of the Dead unleashes its fury.</p>
 </div>
 
 </div>
-
 
 
 </section>
@@ -498,4 +316,4 @@ A new battle against the Deadites begins as the ancient evil rises once again. D
 
 </body>
 
-      </html>
+</html>
