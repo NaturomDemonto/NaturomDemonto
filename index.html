@@ -9,22 +9,22 @@
 <style>
 
 body {
-    margin: 0;
-    background-image: url("Assetts/parchmentpage.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-color: #050505;
-    color: #ddd;
-    font-family: Georgia, serif;
+    margin:0;
+    background-image:url("Assetts/parchmentpage.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center;
+    background-color:#050505;
+    color:#ddd;
+    font-family:Georgia,serif;
 }
 
 
 /* Banner */
 
 .banner {
-    width: 100%;
-    display: block;
+    width:100%;
+    display:block;
 }
 
 
@@ -32,67 +32,60 @@ body {
 /* Navigation */
 
 nav {
-    background: rgba(0,0,0,0.9);
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
+    background:rgba(0,0,0,0.9);
+    padding:20px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
 }
 
 
 nav a {
-
-    background: linear-gradient(#500000, #160000);
-    color: white;
-    text-decoration: none;
-
-    padding: 12px 25px;
-
-    border: 2px solid #900000;
-    border-radius: 8px;
-
-    box-shadow: 0 0 10px black;
-
-    font-weight: bold;
-
+    background:linear-gradient(#500000,#160000);
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border:2px solid #900000;
+    border-radius:8px;
+    box-shadow:0 0 10px black;
+    font-weight:bold;
 }
 
 
 nav a:hover {
+    background:#900000;
+}
 
-    background: #900000;
-    color: white;
+
+
+/* General Sections */
+
+.intro,
+.archive,
+.video-section,
+.quote-box,
+.updates {
+
+    width:80%;
+    margin:40px auto;
+    padding:30px;
+
+    background:rgba(0,0,0,0.8);
+
+    border:3px solid #600000;
+
+    box-shadow:0 0 20px black;
 
 }
 
 
 
-/* Introduction */
+h1,h2 {
 
-.intro {
-
-    width: 80%;
-    margin: 40px auto;
-
-    padding: 30px;
-
-    background: rgba(0,0,0,0.8);
-
-    border: 3px solid #600000;
-
-    box-shadow: 0 0 20px black;
-
-}
-
-
-h1, h2 {
-
-    text-align: center;
-
-    color: #b00000;
-
-    text-shadow: 2px 2px black;
+    text-align:center;
+    color:#b00000;
+    text-shadow:2px 2px black;
 
 }
 
@@ -100,125 +93,135 @@ h1, h2 {
 
 .intro-content {
 
-    display: flex;
-
-    align-items: center;
-
-    justify-content: space-between;
-
-    gap: 30px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:30px;
 
 }
+
 
 
 .intro-content p {
 
-    font-size: 18px;
-
-    line-height: 1.6;
-
-}
-
-
-
-/* Film Archive */
-
-.archive {
-
-    width: 80%;
-
-    margin: auto;
-
-    padding: 30px;
-
-    background: rgba(0,0,0,0.8);
-
-    border: 3px solid #600000;
+    font-size:18px;
+    line-height:1.6;
 
 }
 
 
 
-.film-grid {
+/* Video */
 
-    display: grid;
+.video-container {
 
-    grid-template-columns: repeat(4, 1fr);
+    position:relative;
+    width:100%;
+    padding-bottom:56.25%;
+    height:0;
 
-    gap: 25px;
+}
+
+
+.video-container iframe {
+
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
 
 }
 
 
 
-.film {
+/* Archive Cards */
 
-    text-align: center;
+.archive-entry {
 
-    background: rgba(20,0,0,0.8);
+    display:flex;
+    gap:25px;
+    margin-bottom:30px;
+    padding:20px;
 
-    padding: 15px;
+    background:rgba(20,0,0,0.8);
 
-    border: 2px solid #700000;
+    border:2px solid #700000;
+
+}
+
+
+.archive-entry img {
+
+    width:180px;
+    height:270px;
+
+    object-fit:fill;
+
+    border:6px solid #5a2d15;
+
+    outline:2px solid #1a0800;
+
+    box-shadow:0 0 15px black;
+
+}
+
+
+.archive-info h3 {
+
+    font-size:25px;
+    color:#b00000;
+    text-shadow:2px 2px black;
+
+}
+
+
+.archive-info a {
+
+    color:white;
+    text-decoration:none;
+
+}
+
+
+.archive-info a:hover {
+
+    color:red;
+
+}
+
+
+.archive-info p {
+
+    font-size:17px;
+    line-height:1.6;
 
 }
 
 
 
-.film img {
+.quote-box {
 
-    width: 100%;
+    text-align:center;
 
-    height: 300px;
+    font-style:italic;
 
-    object-fit: cover;
-
-}
-
-
-
-.film a {
-
-    display: block;
-
-    margin-top: 12px;
-
-    color: #fff;
-
-    font-size: 18px;
-
-    text-decoration: none;
+    font-size:20px;
 
 }
 
 
-.film a:hover {
-
-    color: red;
-
-}
-
-
-
-/* Mobile */
 
 @media(max-width:800px){
 
-.film-grid {
+.intro-content,
+.archive-entry {
 
-grid-template-columns: repeat(2,1fr);
-
-}
-
-
-.intro-content {
-
-flex-direction: column;
+    flex-direction:column;
 
 }
 
 }
-
 
 </style>
 
@@ -231,10 +234,11 @@ flex-direction: column;
 <img src="Assetts/naturomdemontobanner.png" class="banner">
 
 
+
 <nav>
 
 <a href="index.html">Home</a>
-    
+
 <a href="movies.html">Evil Dead Movies</a>
 
 <a href="games.html">Evil Dead Games</a>
@@ -245,11 +249,12 @@ flex-direction: column;
 
 <a href="universe.html">Evil Dead Universe</a>
 
-<a href="deadites.html">Deadites</a>  
-    
+<a href="deadites.html">Deadites</a>
+
 <a href="production.html">Making Of</a>
 
 </nav>
+
 
 
 
@@ -261,95 +266,338 @@ flex-direction: column;
 <h2>The Ultimate Website in Grueling Terror</h2>
 
 
+
 <div class="intro-content">
 
 
 <img src="Assetts/necronomiconEDII.jpg" width="180">
 
 
+
 <p>
 
 You have opened Naturom Demonto.
 
-Within these pages lies a complete archive dedicated to the Evil Dead universe.
+<br><br>
 
-Explore the films, games, comics and dark mythology surrounding the Book of the Dead.
+Within these forbidden pages lies a complete archive dedicated to the Evil Dead universe.
 
-Proceed carefully... knowledge has consequences. Don't let it make you the Devil's bitch.
+<br><br>
+
+Explore the films, games, comics, mythology and dark history surrounding the Book of the Dead.
+
+<br><br>
+
+Proceed carefully... knowledge has consequences.
+
+Don't let it make you the Devil's bitch.
 
 </p>
 
 
+
 <img src="Assetts/cabinED1.jpg" width="180">
+
 
 
 </div>
 
 
 </section>
+
+
+
+
+
+<section class="video-section">
+
+
+<h2>Featured From The Archive</h2>
+
+
+<p style="text-align:center;">
+
+Watch videos, documentaries and Evil Dead creations from the Naturom Demonto collection.
+
+</p>
+
+
+
+<div class="video-container">
+
+
+<iframe 
+src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+title="Naturom Demonto Featured Video"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+
+</div>
+
+
+</section>
+
+
 
 
 
 <section class="archive">
 
 
-<h2>Evil Dead Archive</h2>
+<h2>Enter The Archive</h2>
 
 
-<div class="film-grid">
+
+<div class="archive-entry">
 
 
-<div class="film">
-<img src="Assetts/withinthewoods.jpg">
-<a href="within-the-woods.html">Within the Woods</a>
+<img src="Assetts/necronomiconEDII.jpg">
+
+
+<div class="archive-info">
+
+<h3><a href="movies.html">Evil Dead Movies</a></h3>
+
+<p>
+
+Explore every Evil Dead film from the original cabin nightmare of Within the Woods through the latest chapters of Deadite terror.
+
+Discover characters, production history, mythology and the complete cinematic journey.
+
+</p>
+
 </div>
 
 
-<div class="film">
-<img src="Assetts/evildead1dads.jpg">
-<a href="evil-dead-1.html">The Evil Dead</a>
 </div>
 
 
-<div class="film">
-<img src="Assetts/evildead2dads.jpg">
-<a href="evil-dead-2.html">Evil Dead II</a>
-</div>
 
 
-<div class="film">
-<img src="Assetts/themedievaldeaddads.jpg">
-<a href="army-of-darkness.html">Army of Darkness</a>
-</div>
+<div class="archive-entry">
 
 
-<div class="film">
-<img src="Assetts/evildead4.jpg">
-<a href="evil-dead-2013.html">Evil Dead (2013)</a>
-</div>
-
-
-<div class="film">
 <img src="Assetts/ashvsevildead.jpg">
-<a href="ash-vs-evil-dead.html">Ash vs Evil Dead</a>
+
+
+<div class="archive-info">
+
+<h3><a href="games.html">Evil Dead Games</a></h3>
+
+<p>
+
+Enter the interactive world of Evil Dead gaming, from the earliest adaptations to Ash Williams' battles across multiple generations of consoles.
+
+</p>
+
+</div>
 </div>
 
 
-<div class="film">
-<img src="Assetts/evildeadrise.jpg">
-<a href="evil-dead-rise.html">Evil Dead Rise</a>
+<div class="archive-entry">
+
+
+<img src="Assetts/evildeadcomics.jpg">
+
+
+<div class="archive-info">
+
+<h3><a href="comics.html">Evil Dead Comics</a></h3>
+
+<p>
+
+Explore the expanded universe of Evil Dead comics, featuring new stories, battles against the Deadites and adventures beyond the films.
+
+</p>
+
 </div>
 
 
-<div class="film">
-<img src="Assetts/evildeadburn.jpg">
-<a href="evil-dead-burn.html">Evil Dead Burn</a>
+</div>
+
+
+
+
+<div class="archive-entry">
+
+
+<img src="Assetts/evildeadmusical.jpg">
+
+
+<div class="archive-info">
+
+<h3><a href="musical.html">Evil Dead Musical</a></h3>
+
+<p>
+
+Discover the history of the stage production that transformed the world of Evil Dead into a unique horror comedy experience.
+
+</p>
+
 </div>
 
 
 </div>
+
+
+
+
+<div class="archive-entry">
+
+
+<img src="Assetts/necronomiconEDII.jpg">
+
+
+<div class="archive-info">
+
+<h3><a href="universe.html">Evil Dead Universe</a></h3>
+
+<p>
+
+Dive deeper into the mythology surrounding the Necronomicon, Kandarian demons, alternate worlds and the hidden lore behind the franchise.
+
+</p>
+
+</div>
+
+
+</div>
+
+
+
+
+<div class="archive-entry">
+
+
+<img src="Assetts/deadite.jpg">
+
+
+<div class="archive-info">
+
+<h3><a href="deadites.html">Deadite Archive</a></h3>
+
+<p>
+
+A complete collection dedicated to the creatures created by the Book of the Dead. Learn about their appearances, victims and terrifying transformations.
+
+</p>
+
+</div>
+
+
+</div>
+
+
+
+
+<div class="archive-entry">
+
+
+<img src="Assetts/cabinED1.jpg">
+
+
+<div class="archive-info">
+
+<h3><a href="production.html">Making Of</a></h3>
+
+<p>
+
+Go behind the scenes with production history, interviews, filming locations, special effects and the creation of the Evil Dead universe.
+
+</p>
+
+</div>
+
+
+</div>
+
+
 
 </section>
+
+
+
+
+
+
+<section class="updates">
+
+
+<h2>Latest Additions</h2>
+
+
+<p>
+
+📜 Evil Dead Movie Archive — Completed
+
+<br><br>
+
+🎮 Evil Dead Video Game Archive — Completed
+
+<br><br>
+
+📚 Evil Dead Comics Archive — Coming Soon
+
+<br><br>
+
+🎥 Making Of Archive — Coming Soon
+
+<br><br>
+
+💀 Deadite Encyclopedia — Expanding
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+<section class="quote-box">
+
+
+<h2>From The Pages Of The Necronomicon</h2>
+
+
+<p>
+
+"The Book of the Dead was never meant for the hands of the living..."
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+<section class="intro">
+
+
+<h2>Naturom Demonto</h2>
+
+
+<p style="text-align:center;">
+
+The Ultimate Website in Grueling Terror.
+
+<br><br>
+
+An independent fan archive dedicated to preserving the history, mythology and legacy of the Evil Dead universe.
+
+</p>
+
+
+</section>
+
+
 
 
 </body>
