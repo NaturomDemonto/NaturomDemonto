@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Evil Dead Characters - Naturom Demonto</title>
+
+
+<style>
+
+body {
+
+margin:0;
+
+background-image:url("Assetts/parchmentpage.jpg");
+
+background-size:cover;
+
+background-attachment:fixed;
+
+background-position:center;
+
+background-color:#050505;
+
+color:#ddd;
+
+font-family:Georgia, serif;
+
+}
+
+
+/* Banner */
+
+.banner {
+
+width:100%;
+
+display:block;
+
+}
+
+
+
+/* Navigation */
+
+nav {
+
+background:rgba(0,0,0,0.9);
+
+padding:20px;
+
+display:flex;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+gap:15px;
+
+}
+
+
+nav a {
+
+background:linear-gradient(#500000,#160000);
+
+color:white;
+
+text-decoration:none;
+
+padding:12px 25px;
+
+border:2px solid #900000;
+
+border-radius:8px;
+
+box-shadow:0 0 10px black;
+
+font-weight:bold;
+
+}
+
+
+nav a:hover {
+
+background:#900000;
+
+}
+
+
+
+/* Main Sections */
+
+.intro,
+.character-section {
+
+width:80%;
+
+margin:40px auto;
+
+padding:30px;
+
+background:rgba(0,0,0,0.85);
+
+border:3px solid #600000;
+
+box-shadow:0 0 20px black;
+
+}
+
+
+
+h1,
+h2 {
+
+text-align:center;
+
+color:#b00000;
+
+text-shadow:2px 2px black;
+
+}
+
+
+
+p {
+
+font-size:18px;
+
+line-height:1.7;
+
+}
+
+
+
+/* Character Entries */
+
+
+.character-entry {
+
+display:flex;
+
+gap:30px;
+
+margin:30px 0;
+
+padding:20px;
+
+background:rgba(30,0,0,0.75);
+
+border:2px solid #700000;
+
+}
+
+
+
+.character-image {
+
+width:30%;
+
+text-align:center;
+
+}
+
+
+
+.character-image img {
+
+width:100%;
+
+max-width:220px;
+
+border:3px solid #900000;
+
+box-shadow:0 0 15px black;
+
+}
+
+
+
+.character-info {
+
+width:70%;
+
+}
+
+
+
+.character-info h2 {
+
+text-align:left;
+
+}
+
+
+
+
+@media(max-width:800px){
+
+
+.intro,
+.character-section {
+
+width:90%;
+
+}
+
+
+.character-entry {
+
+flex-direction:column;
+
+}
+
+
+.character-image,
+.character-info {
+
+width:100%;
+
+}
+
+
+}
+
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+
+<img src="Assetts/naturomdemontobanner.png" class="banner">
+
+
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="movies.html">Evil Dead Movies</a>
+
+<a href="games.html">Evil Dead Games</a>
+
+<a href="comics.html">Evil Dead Comics</a>
+
+<a href="musical.html">Evil Dead Musical</a>
+
+<a href="universe.html">Evil Dead Universe</a>
+
+<a href="deadites.html">Deadites</a>
+
+<a href="production.html">Making Of</a>
+
+</nav>
+
+
+
+
+
+<section class="intro">
+
+
+<h1>Evil Dead Characters</h1>
+
+<h2>Heroes, Survivors And Victims Of The Deadites</h2>
+
+
+<p>
+
+The Evil Dead universe is filled with unforgettable characters who have encountered the Necronomicon Ex Mortis and the supernatural forces unleashed from its pages.
+
+</p>
+
+
+<p>
+
+This archive documents the major characters throughout the Evil Dead films, from the original victims of the Kandarian Demon, to legendary survivors such as Ash Williams and the heroes who continue the battle against the forces of darkness.
+
+</p>
+
+
+</section>
+
+
+
+
+
+<section class="character-section">
+
+
+<h1>Within The Woods (1978)</h1>
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/bruce-within-the-woods.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Bruce</h2>
+
+<p>
+
+Bruce is one of the first known victims of the ancient evil in Within the Woods. After disturbing the burial ground protected by the spirit Tinga, Bruce becomes possessed and transforms into a violent Deadite.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/scotty-within-the-woods.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Scotty</h2>
+
+<p>
+
+Scotty is the final victim of the evil unleashed in Within the Woods. After Bruce's destruction, the possessing force transfers to Scotty, turning him into a Deadite.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+<section class="character-section">
+
+
+<h1>The Evil Dead (1981)</h1>
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/ash-evil-dead-1.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Ashley Williams</h2>
+
+<p>
+
+Ash Williams is one of the survivors of the Knowby cabin massacre and the central figure of the Evil Dead saga. After accidentally unleashing the Kandarian Demon through the Necronomicon, Ash battles against the Deadites and begins his lifelong war against evil.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/cheryl-williams-ed1.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Cheryl Williams</h2>
+
+<p>
+
+Cheryl is Ash's sister and one of the first victims of the Necronomicon after the group arrives at the cabin. After hearing the recordings of Professor Knowby, she becomes possessed by the Kandarian Demon and attacks the others.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/scotty-ed1.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Scotty</h2>
+
+<p>
+
+Scotty is Ash's friend who travels with the group to the Knowby cabin. After witnessing the Deadite outbreak and losing Shelly, Scotty attempts to survive but eventually falls victim to the evil surrounding the cabin.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/linda-ed1.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Linda</h2>
+
+<p>
+
+Linda is Ash's girlfriend who accompanies him to the cabin. After the Kandarian Demon possesses her, she becomes a Deadite and forces Ash to confront the horror of losing someone close to him.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/shelly-ed1.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Shelly</h2>
+
+<p>
+
+Shelly is Scotty's girlfriend and one of the first members of the group to become possessed. Her transformation into a Deadite demonstrates the terrifying power of the Kandarian Demon.
+
+</p>
+
+</div>
+
+</div>
+
+  <section class="character-section">
+
+
+<h1>Evil Dead II (1987)</h1>
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/ash-evil-dead-ii.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Ashley Williams</h2>
+
+<p>
+
+Ash returns to the cabin after the events of The Evil Dead and once again faces the Kandarian forces unleashed by the Necronomicon. Through his battles against the Deadites, Ash becomes the legendary survivor known throughout the Evil Dead universe.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/annie-knowby-ed2.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Annie Knowby</h2>
+
+<p>
+
+The daughter of Professor Raymond Knowby. Annie returns to the cabin searching for her father's research and discovers the truth about the Necronomicon. She becomes one of Ash's most important allies in the battle against the Kandarian Demon.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/raymond-knowby-ed2.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Professor Raymond Knowby</h2>
+
+<p>
+
+A professor who discovered and translated passages from the Necronomicon Ex Mortis. His research into the Book of the Dead accidentally awakens the evil beneath the cabin.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/ed-getley-ed2.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Ed Getley</h2>
+
+<p>
+
+An archaeologist who travels to the cabin with Annie Knowby. After reading from the Necronomicon, Ed becomes possessed by the Kandarian Demon and transforms into a Deadite.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/jake-ed2.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Jake</h2>
+
+<p>
+
+A local survivor who arrives at the cabin with Annie and Ed. Jake attempts to escape the supernatural horrors unleashed by the Necronomicon but becomes another victim of the Deadite curse.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/bobby-joe-ed2.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Bobby Joe</h2>
+
+<p>
+
+A young woman who travels to the cabin with Jake. After encountering the evil surrounding the area, Bobby Joe becomes one of the many victims of the Kandarian Demon.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/henrietta-knowby-ed2.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Henrietta Knowby</h2>
+
+<p>
+
+The wife of Professor Raymond Knowby. After being buried beneath the cabin, Henrietta is resurrected by the Kandarian Demon and transformed into a monstrous Deadite.
+
+</p>
+
+</div>
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section class="character-section">
+
+
+<h1>Army Of Darkness (1992)</h1>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/ash-army-of-darkness.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Ashley Williams</h2>
+
+<p>
+
+Transported back to the Middle Ages, Ash becomes the prophesied hero known as "The Man from the Sky". He must recover the Necronomicon and battle an army of Deadites before finding a way back home.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/sheila-army-of-darkness.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Sheila</h2>
+
+<p>
+
+A villager from Arthur's kingdom who becomes Ash's ally and romantic interest. After being transformed into a Deadite by Evil Ash, Sheila is restored and helps Ash during the final battle.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/king-arthur-army-of-darkness.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>King Arthur</h2>
+
+<p>
+
+The ruler of the medieval kingdom where Ash is transported. Originally hostile toward Ash, Arthur eventually accepts him as the hero from prophecy and joins the fight against the Deadite army.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/evil-ash-army-of-darkness.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Evil Ash</h2>
+
+<p>
+
+The dark half of Ash created when his own evil nature separates from him. Evil Ash becomes the leader of the Deadite army and attempts to conquer Arthur's kingdom.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/wiseman-army-of-darkness.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>The Wise Man</h2>
+
+<p>
+
+The wise servant of Arthur's court who explains Ash's prophecy and guides him in his quest to retrieve the Necronomicon.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/duke-henry-army-of-darkness.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Duke Henry</h2>
+
+<p>
+
+A warrior who begins as Ash's enemy but eventually becomes one of his greatest allies. Henry helps defend Arthur's kingdom during the Deadite invasion.
+
+</p>
+
+</div>
+
+</div>
+</section>
+
+<section class="character-section">
+
+
+<h1>Evil Dead (2013)</h1>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/mia-allen-ed4.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Mia Allen</h2>
+
+<p>
+
+A recovering drug addict who travels to a remote cabin with her brother David and their friends. After the Necronomicon is discovered, Mia becomes possessed by the Kandarian Demon but manages to overcome the evil within her and survive.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/david-allen-ed4.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>David Allen</h2>
+
+<p>
+
+Mia's older brother and the group's protector. David attempts to save Mia after the Deadite outbreak begins, but eventually becomes possessed during the final confrontation.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/eric-ed4.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Eric</h2>
+
+<p>
+
+A friend of David who discovers and reads from the Necronomicon Ex Mortis. His actions awaken the Kandarian Demon and unleash the Deadite curse upon the group.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/olivia-ed4.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Olivia</h2>
+
+<p>
+
+A registered nurse and friend of Mia who travels to the cabin to help with her recovery. Olivia becomes one of the first victims of the Deadite outbreak.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/natalie-ed4.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Natalie</h2>
+
+<p>
+
+David's girlfriend who joins the group at the cabin. After the Deadites begin attacking, Natalie struggles against the evil consuming everyone around her.
+
+</p>
+
+</div>
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<section class="character-section">
+
+
+<h1>Evil Dead Rise (2023)</h1>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/beth-evil-dead-rise.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Beth</h2>
+
+<p>
+
+A guitar technician who visits her sister Ellie in Los Angeles. After the Necronomicon is discovered beneath the apartment building, Beth becomes the protector of Ellie's children and fights to survive the Deadite outbreak.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/ellie-bixler-edr.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Ellie Bixler</h2>
+
+<p>
+
+A single mother whose life changes forever after the Necronomicon is awakened beneath her apartment building. Possessed by the Kandarian Demon, Ellie becomes one of the most terrifying Deadites in Evil Dead history.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/danny-bixler-edr.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Danny Bixler</h2>
+
+<p>
+
+Ellie's son whose discovery of the Necronomicon recordings begins the chain of events that unleashes the Deadites.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/bridget-bixler-edr.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Bridget Bixler</h2>
+
+<p>
+
+Ellie's eldest daughter. After being attacked during the Deadite outbreak, Bridget becomes possessed and turns against her family.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/cassie-bixler-edr.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Cassie Bixler</h2>
+
+<p>
+
+Ellie's youngest daughter and one of the final survivors of the apartment massacre. Cassie joins Beth in the fight to escape the Deadites.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<section class="character-section">
+
+
+<h1>Evil Dead Burn</h1>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/edgar-price-edb.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Edgar Price</h2>
+
+<p>
+
+The abusive patriarch of the Price family. After becoming possessed by the Kandarian Demon, Edgar transforms into a brutal Deadite.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/alice-edb.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Alice</h2>
+
+<p>
+
+A survivor caught in the latest Deadite outbreak. Alice becomes trapped in another encounter with the Necronomicon and the forces of darkness.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/joseph-edb.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Joseph</h2>
+
+<p>
+
+A member of the Price family who becomes caught in the supernatural nightmare unleashed by the Necronomicon.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="character-entry">
+
+<div class="character-image">
+
+<img src="Assetts/thya-edb.jpg">
+
+</div>
+
+
+<div class="character-info">
+
+<h2>Thya</h2>
+
+<p>
+
+Joseph's girlfriend who becomes another victim of the Kandarian evil. After possession, Thya becomes one of the terrifying Deadites unleashed by the Necronomicon.
+
+</p>
+
+</div>
+
+</div>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+</body>
+
+</html>
