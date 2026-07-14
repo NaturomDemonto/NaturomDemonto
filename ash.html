@@ -10,32 +10,320 @@
 
 <style>
 
-/* Keep your existing CSS exactly as supplied */
+
+body {
+
+margin:0;
+
+background-image:url("Assetts/parchmentpage.jpg");
+
+background-size:cover;
+
+background-attachment:fixed;
+
+background-position:center;
+
+background-color:#050505;
+
+color:#ddd;
+
+font-family:Georgia, serif;
+
+}
+
+
+.banner {
+
+width:100%;
+
+display:block;
+
+}
+
+
+nav {
+
+background:rgba(0,0,0,0.9);
+
+padding:20px;
+
+display:flex;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+gap:15px;
+
+}
+
+
+nav a {
+
+background:linear-gradient(#500000,#160000);
+
+color:white;
+
+text-decoration:none;
+
+padding:12px 25px;
+
+border:2px solid #900000;
+
+border-radius:8px;
+
+box-shadow:0 0 10px black;
+
+font-weight:bold;
+
+}
+
+
+nav a:hover {
+
+background:#900000;
+
+}
+
+
+.film-section {
+
+width:80%;
+
+margin:40px auto;
+
+padding:30px;
+
+background:rgba(0,0,0,0.85);
+
+border:3px solid #600000;
+
+box-shadow:0 0 20px black;
+
+}
+
+
+h1,
+h2 {
+
+text-align:center;
+
+color:#b00000;
+
+text-shadow:2px 2px black;
+
+}
+
+
+p {
+
+font-size:18px;
+
+line-height:1.7;
+
+}
+
+
+.film-intro {
+
+display:flex;
+
+align-items:center;
+
+gap:40px;
+
+padding:25px;
+
+background:rgba(20,0,0,0.75);
+
+border:2px solid #700000;
+
+}
+
+
+.poster-box {
+
+width:50%;
+
+text-align:center;
+
+}
+
+
+.poster-box img {
+
+width:100%;
+
+height:auto;
+
+border:3px solid #900000;
+
+box-shadow:0 0 15px black;
+
+}
+
+
+.film-text {
+
+width:50%;
+
+}
+
+
+.film-text h2 {
+
+text-align:left;
+
+}
+
+
+.lore-block {
+
+padding:30px 0;
+
+overflow:auto;
+
+}
+
+
+.lore-image-right {
+
+float:right;
+
+width:38%;
+
+margin:0 0 20px 35px;
+
+text-align:center;
+
+}
+
+
+.lore-image-left {
+
+float:left;
+
+width:38%;
+
+margin:0 35px 20px 0;
+
+text-align:center;
+
+}
+
+
+.lore-image-right img,
+.lore-image-left img {
+
+width:100%;
+
+max-width:400px;
+
+border:3px solid #900000;
+
+box-shadow:0 0 15px black;
+
+}
+
+
+.lore-divider {
+
+border:none;
+
+border-top:2px solid #700000;
+
+margin:40px 0;
+
+}
+
+
+.caption {
+
+font-size:14px;
+
+font-style:italic;
+
+color:#ccc;
+
+}
+
+
+@media(max-width:800px){
+
+
+.film-section {
+
+width:90%;
+
+}
+
+
+.film-intro {
+
+flex-direction:column;
+
+}
+
+
+.poster-box,
+.film-text {
+
+width:100%;
+
+}
+
+
+.lore-image-right,
+.lore-image-left {
+
+float:none;
+
+width:100%;
+
+margin:20px auto;
+
+}
+
+
+}
+
 
 </style>
 
 </head>
 
 
+
 <body>
+
 
 
 <img src="Assetts/naturomdemontobanner.png" class="banner">
 
 
+
 <nav>
 
 <a href="index.html">Home</a>
+
 <a href="movies.html">Evil Dead Movies</a>
+
 <a href="games.html">Evil Dead Games</a>
+
 <a href="comics.html">Evil Dead Comics</a>
+
 <a href="musical.html">Evil Dead Musical</a>
+
 <a href="universe.html">Evil Dead Universe</a>
+
 <a href="characters.html">Characters</a>
+
 <a href="deadites.html">Deadites</a>
+
 <a href="production.html">Making Of</a>
 
 </nav>
+
 
 
 
@@ -47,6 +335,7 @@
 <h2>AKA El Jefe</h2>
 
 
+
 <div class="film-intro">
 
 
@@ -56,30 +345,32 @@
 
 
 <p class="caption">
-The hero foretold within the ancient writings of the Necronomicon Ex Mortis.
+The warrior foretold through the ancient writings connected to the Necronomicon Ex Mortis.
 </p>
 
+
 </div>
+
 
 
 <div class="film-text">
 
 
-<h2>The Man Who Would Become A Legend</h2>
+<h2>The Reluctant Hero</h2>
 
 
 <p>
-Ashley Joanna Williams was once an ordinary man who had no knowledge of ancient evil, forgotten prophecies or supernatural forces. A simple trip to a remote cabin with his friends would transform his life forever and place him at the centre of humanity's battle against the Evil Dead.
+Ashley Joanna Williams began his journey as an ordinary man with no knowledge of ancient evil, forgotten prophecies or supernatural forces. A trip to a remote cabin in the woods would transform his life forever and place him at the centre of a battle against the Evil Dead.
 </p>
 
 
 <p>
-Through countless encounters with the forces unleashed by the Necronomicon Ex Mortis, Ash would evolve from a terrified survivor into the warrior known as El Jefe — the prophesied hero destined to stand against the darkness.
+Ash is not a hero who seeks adventure or glory. He is a survivor who is repeatedly forced to stand against forces far beyond human understanding. Through loss, suffering and determination, he would eventually become the legendary warrior known as El Jefe.
 </p>
 
 
 <p>
-However, Ash's transformation would not happen overnight. It would begin with one terrible night in the woods where everything he knew was taken from him.
+His destiny begins with the discovery of the Necronomicon Ex Mortis and the awakening of an ancient evil hidden within the Knowby cabin.
 </p>
 
 
@@ -94,12 +385,13 @@ However, Ash's transformation would not happen overnight. It would begin with on
 
 
 
+
 <section class="film-section">
 
 
 <h1>The Beginning Of Ash's Journey</h1>
 
-<h2>The First Encounter With The Evil Dead</h2>
+<h2>The Evil Dead (1981)</h2>
 
 
 
@@ -112,27 +404,28 @@ However, Ash's transformation would not happen overnight. It would begin with on
 
 
 <p class="caption">
-Ash and his friends travel toward the isolated Knowby cabin.
+Ash and his friends travel towards the isolated Knowby cabin.
 </p>
+
 
 </div>
 
 
-<h2>The Journey To The Cabin</h2>
+<h2>The Journey To The Woods</h2>
 
 
 <p>
-Before becoming the legendary Deadite fighter known throughout history, Ash Williams was simply a young man travelling with his girlfriend Linda and his friends Cheryl, Scotty and Shelly to a remote cabin hidden deep within the woods of Tennessee.
+Before becoming the legendary Deadite fighter, Ash Williams was simply travelling with his girlfriend Linda and his friends Cheryl, Scotty and Shelly to a remote cabin hidden deep within the Tennessee woods.
 </p>
 
 
 <p>
-The group believed they were heading toward a quiet holiday away from everyday life. Unknown to them, the cabin had already become connected to an ancient evil after Professor Raymond Knowby discovered the Necronomicon Ex Mortis while researching forgotten languages and supernatural forces.
+The group expected a peaceful getaway, unaware that the cabin had a dark history. Years earlier, Professor Raymond Knowby had discovered the ancient Necronomicon Ex Mortis while studying forgotten languages and supernatural forces.
 </p>
 
 
 <p>
-Inside the cabin, Ash and his friends discovered Knowby's recordings and learned of the terrifying Book of the Dead. When passages from the Necronomicon were played aloud, a powerful Kandarian force was awakened.
+Inside the cabin, Ash and his friends discovered Knowby's recordings. When the passages from the Book of the Dead were played aloud, an ancient Kandarian force was awakened.
 </p>
 
 
@@ -141,6 +434,7 @@ Inside the cabin, Ash and his friends discovered Knowby's recordings and learned
 
 
 <hr class="lore-divider">
+
 
 
 
@@ -153,34 +447,32 @@ Inside the cabin, Ash and his friends discovered Knowby's recordings and learned
 
 
 <p class="caption">
-The recording that awakens the ancient evil.
+The Necronomicon Ex Mortis awakens the forces of darkness.
 </p>
 
 
 </div>
 
 
-<h2>The Awakening Of The Kandarian Demon</h2>
+<h2>The Awakening Of The Kandarian Evil</h2>
 
 
 <p>
-The words spoken from Professor Knowby's recordings unleashed a supernatural force capable of possessing the living and turning them into Deadites. The evil that entered the cabin was not merely a physical threat, but an ancient intelligence that could manipulate fear, memories and emotions.
+The evil unleashed from the Necronomicon was not simply a creature, but an ancient supernatural force capable of possessing the living and transforming them into Deadites.
 </p>
 
 
 <p>
-One by one, Ash's friends became victims of the darkness. Cheryl, Shelly and Scotty were consumed by the evil, leaving Ash trapped in a nightmare he could barely understand.
+The cabin quickly became a place of terror as Ash watched the people around him fall victim to the darkness. Cheryl, Shelly and Scotty were taken by the evil, leaving Ash isolated and fighting for his survival.
 </p>
 
 
 <p>
-The experience forced Ash to confront something beyond human understanding. The ordinary man who arrived at the cabin began the first steps toward becoming the warrior who would one day oppose the forces of darkness.
+The man who entered the woods looking for a weekend away was forced into a battle against an enemy he could never have imagined.
 </p>
 
 
-</div>
-
-
+  </div>
 
 <hr class="lore-divider">
 
@@ -195,7 +487,7 @@ The experience forced Ash to confront something beyond human understanding. The 
 
 
 <p class="caption">
-Ash is forced to fight the people he once loved.
+Ash is forced to face the Deadites, including the person he loved most.
 </p>
 
 
@@ -206,12 +498,17 @@ Ash is forced to fight the people he once loved.
 
 
 <p>
-Linda became the most painful loss of Ash's first encounter with the Evil Dead. After being possessed by the Kandarian force, she returned as a Deadite, forcing Ash into an impossible battle against the woman he loved.
+As the Kandarian evil spreads throughout the cabin, Ash suffers his greatest personal loss. Linda, the woman he loves, becomes one of the victims of the darkness unleashed by the Necronomicon.
 </p>
 
 
 <p>
-Her death became one of the defining moments of Ash's life. The fight was no longer about escaping the woods; it became a battle for survival against an evil that had taken everything from him.
+After being possessed, Linda returns as a Deadite, forcing Ash into a battle against someone who was once his closest companion. The evil does not simply attack Ash physically; it uses his memories and emotions against him.
+</p>
+
+
+<p>
+Ash is eventually forced to destroy the Deadite that Linda has become. This moment changes him forever. The ordinary man who arrived at the cabin is gone, replaced by someone who has been forced to fight against the impossible.
 </p>
 
 
@@ -232,32 +529,39 @@ Her death became one of the defining moments of Ash's life. The fight was no lon
 
 
 <p class="caption">
-Ash destroys the Necronomicon, believing the nightmare is over.
+Ash destroys the Necronomicon, believing the nightmare has ended.
 </p>
 
 
 </div>
 
 
-<h2>The Destruction Of The Book</h2>
+<h2>The Destruction Of The Necronomicon</h2>
 
 
 <p>
-After facing the horrors unleashed within the cabin, Ash discovered that the only way to end the nightmare was to destroy the source of the evil itself. He threw the Necronomicon Ex Mortis into the fire, believing the ancient darkness had finally been defeated.
+With the cabin consumed by darkness and his friends lost, Ash discovers that the only way to end the nightmare is to destroy the source of the evil itself.
 </p>
 
 
 <p>
-However, Ash did not understand that destroying the physical book would not immediately end the forces that had already been unleashed. The Kandarian evil remained active, and as Ash stood alone in the aftermath, the darkness rushed toward him.
+He throws the Necronomicon Ex Mortis into the fire, believing that the Book of the Dead has finally been defeated. Ash has survived the horrors of the cabin and appears to have ended the nightmare that began with the discovery of Professor Knowby's recordings.
 </p>
 
 
 <p>
-This moment would lead directly into the next chapter of his journey.
+However, the evil unleashed from the book is not so easily defeated. Although the physical Necronomicon is destroyed, the Kandarian force that was awakened remains active.
+</p>
+
+
+<p>
+As Ash stands alone outside the cabin, the unseen force rushes toward him, beginning the next chapter of his battle against the Evil Dead.
 </p>
 
 
 </div>
+
+
 
 <hr class="lore-divider">
 
@@ -272,7 +576,7 @@ This moment would lead directly into the next chapter of his journey.
 
 
 <p class="caption">
-The Kandarian force continues its attack as Ash's nightmare enters a new chapter.
+The events of Evil Dead 2 continue directly from Ash's final moments in the first film.
 </p>
 
 
@@ -283,17 +587,17 @@ The Kandarian force continues its attack as Ash's nightmare enters a new chapter
 
 
 <p>
-Ash believed the nightmare had ended when he destroyed the Necronomicon Ex Mortis. However, the evil unleashed from the Book of the Dead was not so easily defeated. The ancient Kandarian force that had haunted the cabin remained, and the darkness that began in the woods continued its assault.
+The beginning of Evil Dead 2 serves as a brief retelling of Ash's first encounter with the Evil Dead. The recap brings the story back to the moment where Ash destroyed the Necronomicon and the Kandarian force attacked him.
 </p>
 
 
 <p>
-The unseen force rushes toward Ash, violently throwing him through the forest and leaving him at the mercy of the same evil he believed he had escaped. This moment marks the beginning of the next stage of Ash's transformation.
+The story then continues immediately from that point. Ash is thrown through the woods by the supernatural force and becomes the next victim of the evil he believed he had escaped.
 </p>
 
 
 <p>
-The ordinary man who survived the horrors of the cabin is pushed even further into a battle he never asked for. The forces of darkness will not allow Ash to walk away, because his connection to the Necronomicon and his destiny have only just begun to reveal themselves.
+The original Necronomicon Ex Mortis has already been destroyed. The battle Ash faces now is not the discovery of a new book, but the continuation of the same evil that was unleashed during his first encounter.
 </p>
 
 
@@ -310,32 +614,37 @@ The ordinary man who survived the horrors of the cabin is pushed even further in
 
 <div class="lore-image-left">
 
-<img src="Assetts/ash-possessed-ed2.jpg">
+<img src="Assetts/ash-page-ed2-midsize.png">
 
 
 <p class="caption">
-Ash briefly falls under the influence of the Kandarian evil.
+Ash begins to discover that the darkness surrounding the cabin is far older and more powerful than he understood.
 </p>
 
 
 </div>
 
 
-<h2>Ash Becomes The Victim Of The Evil Dead</h2>
+<h2>Ash's Possession</h2>
 
 
 <p>
-After being attacked by the Kandarian force, Ash becomes temporarily possessed by the evil that surrounds the cabin. The same darkness that transformed his friends into Deadites now attempts to consume him.
+After being attacked by the Kandarian force, Ash is temporarily possessed by the evil surrounding the cabin. The same darkness that claimed his friends attempts to consume him as well.
 </p>
 
 
 <p>
-Unlike the people who fell before him, Ash manages to resist the possession and returns to himself. This becomes an important turning point in his journey, proving that there is something different about him. The evil can attack him, but it cannot completely break him.
+Unlike those who fell before him, Ash is able to resist the possession and eventually returns to himself. This becomes one of the first signs that Ash is different from ordinary people who encounter the Deadites.
 </p>
 
 
 <p>
-Ash awakens alone, surrounded by the remains of the nightmare he survived before. With no friends left beside him and no understanding of why the darkness continues to pursue him, he is forced to fight alone.
+Ash awakens alone, once again trapped at the cabin and forced to confront the supernatural forces that refuse to let him go.
+</p>
+
+
+<p>
+The survivor of the first nightmare is beginning to become something more. Every battle, every loss and every encounter with the Deadites pushes Ash closer to becoming the warrior he was destined to become.
 </p>
 
 
@@ -352,11 +661,51 @@ Ash awakens alone, surrounded by the remains of the nightmare he survived before
 
 <div class="lore-image-right">
 
-<img src="Assetts/ash-linda-dance.jpg">
+<img src="Assetts/ted-ash-haunted.jpg">
 
 
 <p class="caption">
-Linda returns as a Deadite in one of Ash's most haunting encounters.
+The evil continues to torment Ash at the cabin.
+</p>
+
+
+</div>
+
+
+<h2>The Return Of The Deadites</h2>
+
+
+<p>
+The Kandarian evil continues its assault on Ash, using the cabin and its history as a source of terror. The nightmare that began during his first visit is far from over.
+</p>
+
+
+<p>
+The darkness attempts to break Ash mentally as well as physically, forcing him to relive the horrors that changed his life forever.
+</p>
+
+
+<p>
+But unlike the frightened man who first entered the cabin, Ash now begins to fight back. His survival instinct develops into something greater: the determination of a warrior.
+</p>
+
+
+</div>
+
+<hr class="lore-divider">
+
+
+
+<div class="lore-block">
+
+
+<div class="lore-image-left">
+
+<img src="Assetts/ted-ash-mania-linda.jpg">
+
+
+<p class="caption">
+Linda returns as a Deadite, forcing Ash to face the past he thought he had escaped.
 </p>
 
 
@@ -367,69 +716,22 @@ Linda returns as a Deadite in one of Ash's most haunting encounters.
 
 
 <p>
-Ash soon discovers that the evil has not finished tormenting him. Linda, who had already died during his first encounter with the Deadites, returns as a possessed force of darkness.
+The evil surrounding the cabin continues to attack Ash by bringing back the memories and horrors of his first encounter. Linda, who Ash lost during the original nightmare, returns once again as a Deadite.
 </p>
 
 
 <p>
-Her return becomes one of Ash's most disturbing battles. The woman he once loved is no longer herself, but another victim controlled by the Kandarian evil.
+Her return is one of the cruelest attacks against Ash. The Kandarian force uses the image of someone he loved to torment him, reminding him that the darkness can corrupt even the people closest to him.
 </p>
 
 
 <p>
-After her possession, Linda's body becomes part of the supernatural horror surrounding the cabin. In one of the most unforgettable moments of Ash's journey, her headless body rises and performs a twisted dance before attacking him.
+The possessed Linda becomes one of Ash's most unforgettable battles. The horror reaches its peak when her body continues moving after death, creating the bizarre and terrifying headless dance that becomes one of the most iconic moments of his fight against the Evil Dead.
 </p>
 
 
 <p>
-The encounter forces Ash to once again confront the cruel reality of the Evil Dead: the people closest to him can be taken by the darkness and turned against him.
-</p>
-
-
-</div>
-
-
-
-<hr class="lore-divider">
-
-
-
-<div class="lore-block">
-
-
-<div class="lore-image-left">
-
-<img src="Assetts/ash-chainsaw-ed2.jpg">
-
-
-<p class="caption">
-Ash creates the weapon that would become a symbol of his legend.
-</p>
-
-
-</div>
-
-
-<h2>The Birth Of The Chainsaw-Hand</h2>
-
-
-<p>
-As the battle continues, the evil attacks Ash in a way that changes him forever. His own right hand becomes possessed and turns against him, forcing Ash into an impossible decision.
-</p>
-
-
-<p>
-With no other choice, Ash removes his own hand to stop the Deadite infection from spreading. What begins as a desperate act of survival eventually becomes the creation of his most famous weapon.
-</p>
-
-
-<p>
-Replacing his lost hand with a chainsaw, Ash transforms his greatest weakness into a symbol of defiance. He is no longer only running from the Evil Dead — he is beginning to fight back against them.
-</p>
-
-
-<p>
-This moment represents a major step in Ash's evolution. The frightened survivor from the first night in the cabin is becoming the warrior who will eventually be known as El Jefe.
+Ash is forced to accept that the past cannot be recovered. The only way forward is to continue fighting the evil that has taken everything from him.
 </p>
 
 
@@ -446,11 +748,58 @@ This moment represents a major step in Ash's evolution. The frightened survivor 
 
 <div class="lore-image-right">
 
-<img src="Assetts/annie-knowby-ed2.jpg">
+<img src="Assetts/ash-chainsaw-ed2.jpg">
 
 
 <p class="caption">
-Annie Knowby arrives carrying her father's research and the missing pages.
+Ash transforms his greatest loss into his most famous weapon.
+</p>
+
+
+</div>
+
+
+<h2>The Birth Of The Chainsaw Hand</h2>
+
+
+<p>
+The battle against the Evil Dead takes another devastating turn when Ash's own hand becomes possessed by the Kandarian evil.
+</p>
+
+
+<p>
+The possessed hand attacks Ash, leaving him with no choice but to remove it before the darkness can consume him completely. What begins as a desperate act of survival becomes the moment that creates his legendary weapon.
+</p>
+
+
+<p>
+Ash replaces his lost hand with a chainsaw, turning a painful reminder of his suffering into a symbol of defiance against the Deadites.
+</p>
+
+
+<p>
+This is the moment where Ash truly begins to change. He is no longer simply trying to survive the Evil Dead — he is becoming the person capable of fighting them.
+</p>
+
+
+</div>
+
+
+
+<hr class="lore-divider">
+
+
+
+<div class="lore-block">
+
+
+<div class="lore-image-left">
+
+<img src="Assetts/ted-discover-book.jpg">
+
+
+<p class="caption">
+The secrets surrounding the Necronomicon continue through the missing pages.
 </p>
 
 
@@ -461,62 +810,22 @@ Annie Knowby arrives carrying her father's research and the missing pages.
 
 
 <p>
-Ash's battle changes when Annie Knowby, the daughter of Professor Raymond Knowby, arrives at the cabin. She brings her father's research, translations and the missing pages of the Necronomicon Ex Mortis.
+Ash's battle changes when Annie Knowby arrives at the cabin. The daughter of Professor Raymond Knowby, Annie brings her father's research and the missing pages connected to the Necronomicon Ex Mortis.
 </p>
 
 
 <p>
-The original Book of the Dead that Ash destroyed is no longer present. However, the surviving pages contain important knowledge about the ancient forces connected to the Deadites and provide a way to understand the evil threatening the cabin.
+The original Book of the Dead was destroyed by Ash at the end of his first encounter. The pages Annie carries are not a replacement for the book, but surviving sections containing knowledge about the ancient forces connected to it.
 </p>
 
 
 <p>
-Through Annie's discoveries, Ash begins to learn that the events surrounding the Necronomicon are part of something much older and more powerful than he ever imagined.
-</p>
-
-
-</div>
-
-<hr class="lore-divider">
-
-
-
-<div class="lore-block">
-
-
-<div class="lore-image-left">
-
-<img src="Assetts/henrietta-deadite.jpg">
-
-
-<p class="caption">
-Henrietta Knowby returns as one of the most terrifying Deadites Ash faces.
-</p>
-
-
-</div>
-
-
-<h2>The Curse Of Henrietta Knowby</h2>
-
-
-<p>
-Annie Knowby's arrival reveals even more of the horrors surrounding her father's research. Professor Knowby had not only studied the Necronomicon, but had also witnessed the terrible consequences of the forces it unleashed.
+Through Annie's discoveries, Ash learns that the evil surrounding the cabin is part of something much older and more powerful than he originally understood.
 </p>
 
 
 <p>
-Among those claimed by the darkness was Annie's own mother, Henrietta Knowby. The evil that infected the cabin transformed Henrietta into a Deadite, creating another horrifying reminder of the power Ash was fighting against.
-</p>
-
-
-<p>
-Ash is forced to confront yet another person who has been consumed by the Kandarian forces. However, unlike the frightened man who first entered the cabin, Ash now faces the evil with determination and refuses to be broken by it.
-</p>
-
-
-<p>
-Every battle strengthens Ash's resolve. The darkness that destroyed his old life is unknowingly shaping him into the warrior described within the ancient writings.
+The battle is no longer just about escaping the woods. Ash is becoming part of an ancient conflict between humanity and the supernatural forces of darkness.
 </p>
 
 
@@ -532,169 +841,33 @@ Every battle strengthens Ash's resolve. The darkness that destroyed his old life
 
 
 <div class="lore-image-right">
-
-<img src="Assetts/ash-army-deadites.jpg">
-
-
-<p class="caption">
-Ash stands against the forces of darkness surrounding the cabin.
-</p>
-
-
-</div>
-
-
-<h2>The Battle For The Cabin</h2>
-
-
-<p>
-With Annie's knowledge of the missing Necronomicon pages, Ash learns more about the evil surrounding the cabin. The Deadites continue their attack, and the survivors must work together to stop the darkness from spreading.
-</p>
-
-
-<p>
-Ash is no longer fighting simply to escape. The experiences that have changed him force him to take control of the situation. He has lost his friends, lost his hand and faced horrors beyond human understanding, yet he continues to stand against the evil.
-</p>
-
-
-<p>
-The chainsaw and his determination become symbols of his transformation. Ash Williams, once an ordinary man caught in an impossible nightmare, has become the person capable of challenging the supernatural forces that others cannot defeat.
-</p>
-
-
-</div>
-
-
-
-<hr class="lore-divider">
-
-
-
-<div class="lore-block">
-
-
-<div class="lore-image-left">
-
-<img src="Assetts/ash-necronomicon-pages-ed2.jpg">
-
-
-<p class="caption">
-The missing pages reveal the connection between Ash and the ancient prophecy.
-</p>
-
-
-</div>
-
-
-<h2>The Prophecy Of The Hero From The Sky</h2>
-
-
-<p>
-The writings connected to the Necronomicon reveal that Ash's encounters with the Evil Dead are not random. Ancient prophecy speaks of a hero who will arrive from the sky and stand against the forces of darkness.
-</p>
-
-
-<p>
-Although Ash does not consider himself a hero, his actions prove otherwise. He survives encounters that destroy others, resists the possession that claims so many victims and repeatedly chooses to fight when escape seems impossible.
-</p>
-
-
-<p>
-The prophecy transforms Ash's struggle from a simple fight for survival into part of an ancient conflict between humanity and the supernatural forces connected to the Necronomicon.
-</p>
-
-
-<p>
-The man who entered the woods looking for a weekend away is becoming the warrior foretold within the ancient writings.
-</p>
-
-
-</div>
-
-
-
-<hr class="lore-divider">
-
-
-
-<div class="lore-block">
-
-
-<div class="lore-image-right">
-
-<img src="Assetts/time-vortex-ash.jpg">
-
-
-<p class="caption">
-Ash is pulled through time toward the next chapter of his destiny.
-</p>
-
-
-</div>
-
-
-<h2>The Kandarian Portal</h2>
-
-
-<p>
-After the battle at the cabin, Ash attempts to finally put an end to the darkness. However, the forces connected to the Necronomicon have one final role for him to play.
-</p>
-
-
-<p>
-A powerful vortex opens, drawing Ash away from his own time and sending him into the distant past. The ordinary man from the modern world is transported into an age of kingdoms, warriors and ancient evil.
-</p>
-
-
-<p>
-Rather than escaping the conflict, Ash discovers that he has been pulled deeper into it. The battle against the Evil Dead was never only about the cabin — it was part of a much older war that stretches across centuries.
-</p>
-
-
-</div>
-
-
-
-<hr class="lore-divider">
-
-
-
-<div class="lore-block">
-
-
-<div class="lore-image-left">
 
 <img src="Assetts/ash-medieval.jpg">
 
 
 <p class="caption">
-Ash's destiny leads him into an age of darkness.
+The destiny of the hero from the sky begins to reveal itself.
 </p>
 
 
 </div>
 
 
-<h2>The Rise Of El Jefe</h2>
+<h2>The Hero From The Sky</h2>
 
 
 <p>
-Arriving in the medieval past, Ash discovers that the forces of darkness are once again threatening humanity. The prophecy surrounding the Necronomicon now places him at the centre of the conflict.
+The knowledge contained within the missing pages reveals that Ash's journey is connected to an ancient prophecy. The writings describe a hero who will arrive from the sky and stand against the forces of evil.
 </p>
 
 
 <p>
-He is still the same sarcastic, reluctant man who never asked for this responsibility, but his journey has changed him. The horrors of the cabin have forged him into a warrior capable of facing impossible enemies.
+Ash does not see himself as a chosen warrior. He is still the same reluctant man who wanted nothing more than to escape the nightmare. However, every battle has proven that he possesses the strength and determination needed to oppose the darkness.
 </p>
 
 
 <p>
-Armed with his chainsaw hand, his courage and the experience gained from surviving the Evil Dead, Ash accepts the role that fate has forced upon him.
-</p>
-
-
-<p>
-The hero from the sky has arrived.
+The Deadites destroyed his old life, but they also forged him into the warrior the prophecy described.
 </p>
 
 
@@ -709,22 +882,79 @@ The hero from the sky has arrived.
 <div class="lore-block">
 
 
-<h2>The Legend Of Ash Williams</h2>
+<div class="lore-image-left">
+
+<img src="Assetts/ted-ending.jpg">
 
 
-<p>
-Ash Williams' journey is the story of an ordinary man transformed by extraordinary circumstances. He did not seek power, glory or destiny, but every battle against the Evil Dead pushed him closer to becoming the legendary warrior known as El Jefe.
-</p>
-
-
-<p>
-From the moment he entered the Knowby cabin, Ash became connected to an ancient struggle between humanity and the forces unleashed by the Necronomicon. The losses he suffered, the enemies he defeated and the horrors he endured all shaped the hero he would become.
-</p>
-
-
-<p>
-The Deadites would continue to return, but so would Ash Williams — the reluctant hero, the chosen warrior and the man destined to stand against the darkness.
+<p class="caption">
+Ash is taken beyond his own time and toward his ultimate destiny.
 </p>
 
 
 </div>
+
+
+<h2>The Time Vortex</h2>
+
+
+<p>
+After the battle at the cabin, the forces connected to the Necronomicon open a powerful portal. Ash is pulled through the vortex and taken away from his own time.
+</p>
+
+
+<p>
+The man who entered the woods searching for a simple getaway is transported into a forgotten age of kingdoms, warriors and ancient evil.
+</p>
+
+
+<p>
+Ash discovers that his battle with the Evil Dead was never only about the cabin. The darkness stretches across history, and his role in the fight against it is far greater than he ever imagined.
+</p>
+
+
+</div>
+
+
+
+<hr class="lore-divider">
+
+
+
+<div class="lore-block">
+
+
+<h2>The Legend Of El Jefe</h2>
+
+
+<p>
+Ash Williams' journey is the transformation of an ordinary man into a legendary warrior. He never asked for the responsibility placed upon him, but every encounter with the Evil Dead pushed him closer to fulfilling his destiny.
+</p>
+
+
+<p>
+From the Knowby cabin to ancient kingdoms, Ash became the one person capable of standing against the Deadites. His courage, stubbornness and refusal to surrender made him the enemy that the forces of darkness feared most.
+</p>
+
+
+<p>
+The reluctant survivor became the hero from the sky. The man with the chainsaw hand became the legend known as El Jefe.
+</p>
+
+
+<p>
+Wherever the Evil Dead rise, Ash Williams will be there to face them.
+</p>
+
+
+</div>
+
+
+
+</section>
+
+
+
+</body>
+
+</html>
